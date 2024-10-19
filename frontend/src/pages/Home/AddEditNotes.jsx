@@ -162,7 +162,7 @@ const AddEditNotes = ({ noteData, type, getAllNotes, onClose }) => {
     };
 
     return (
-        <div className='relative'>
+        <div className='relative h-[500px] overflow-y-auto px-6  overflow-x-hidden'>
             <button
                 className='w-10 h-10 rounded-full flex items-center bg-gray-50 transition-all justify-center absolute -top-3 -right-3 hover:bg-red-100'
                 onClick={onClose}
